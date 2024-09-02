@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class UserController {
-    private final String defaultUserName = "user";
+    private final String defaultUserName = "user222";
     @GetMapping
     public String getDefaultUserName() {
         return defaultUserName;
